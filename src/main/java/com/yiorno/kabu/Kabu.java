@@ -16,6 +16,9 @@ public final class Kabu extends JavaPlugin {
 
         getLogger().info("カブが起動しました");
 
+        DataManagement datamanagement = new DataManagement();
+        datamanagement.checkDate();
+
     }
 
     @Override
