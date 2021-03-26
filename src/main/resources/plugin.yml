@@ -1,0 +1,12 @@
+name: Kabu
+version: ${project.version}
+main: com.yiorno.kabu.Kabu
+api-version: 1.16
+prefix: Kabu
+load: STARTUP
+authors: [yossy_zip]
+description: A stock plugin, which combies AnimalCrossing with real one.
+website: https://yiorno.com/plugins/the-kabu
+commands:
+  kabu:
+    description: カブ！
